@@ -8,8 +8,6 @@ namespace AnimalSounds
 {
     internal class Chicken : Animal
     {
- 
-        public override AnimalType AnimalType => AnimalType.Chicken;
 
         public override string MakeSound()
         {

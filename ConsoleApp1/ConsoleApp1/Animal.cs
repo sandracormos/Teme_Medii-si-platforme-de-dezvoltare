@@ -10,7 +10,13 @@ namespace AnimalSounds
 {
     public abstract class Animal
     {
-        public abstract AnimalType AnimalType { get; }
+        private string _name;
+        public string Name
+        {
+            get => _name;
+            internal set  { _name = value; }
+        }
+
         public abstract string MakeSound();
     }
 }

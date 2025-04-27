@@ -8,11 +8,10 @@ namespace AnimalSounds
 {
     internal class Dog : Animal
     {
-        public override AnimalType AnimalType => AnimalType.Dog;
 
         public override string MakeSound()
         {
-            return "woof woof";
+            return "Woof Woof";
         }
     }
 }
